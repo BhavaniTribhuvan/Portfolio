@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavani Tribhuvan's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+        header {
+            background: linear-gradient(135deg, #007BFF, #6610f2);
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3.5em;
+            font-weight: 700;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        header a {
+            color: white;
+            text-decoration: underline;
+            font-weight: 700;
+        }
+        nav {
+            background: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 700;
+            padding: 10px 20px;
+            display: block;
+        }
+        nav ul li a:hover {
+            background: #007BFF;
+            color: white;
+            border-radius: 5px;
+        }
+        section {
+            padding: 60px 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h2 {
+            text-align: center;
+            color: #007BFF;
+            margin-bottom: 40px;
+            font-size: 2em;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .card {
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-bottom: 30px;
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            text-align: center;
+        }
+        .skills div {
+            background: #007BFF;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            font-weight: 700;
+            transition: background 0.3s ease;
+        }
+        .skills div:hover {
+            background: #6610f2;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bhavani Tribhuvan</h1>
+        <p>A student pursuing a B.Tech in computer science with a focus on machine learning and artificial intelligence. Enthusiastic about using ML and AI to improve corporate operations and advance cutting-edge research.</p>
+        <p>Contact: tribhuvanbhavani24@gmail.com | +91 8217836725 | <a href="https://www.linkedin.com/in/tribhuvan-bhavani">LinkedIn</a></p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+    </nav>
+    <section id="education" class="container">
+        <h2>Education</h2>
+        
+        <div class="card">
+            <h3>Bachelor of Technology in Computer Engineering (AI & ML)</h3>
+            <p><strong>Institution:</strong> Presidency University, Bangalore</p>
+            <p><strong>Year:</strong> 2025</p>
+            <p><strong>CGPA:</strong> 8.29 CGPA</p>
+        </div>
+        
+        <div class="card">
+            <h3>Grade 12</h3>
+            <p><strong>Institution:</strong> Narayana PU College, Bangalore</p>
+            <p><strong>Year:</strong> 2021</p>
+            
+        </div>
+        
+    </section>
+    <section id="experience" class="container">
+        <h2>Experience</h2>
+        
+        <div class="card">
+            <h3>Machine Learning Intern</h3>
+            <p><strong>Organization:</strong> Bharat Electronics Limited</p>
+            <p><strong>Duration:</strong> June 2024 - July 2024</p>
+            <ul>
+                
+                <li>Developed machine learning models for training smart city devices.</li>
+                
+                <li>Collaborated with the software team to predict Solid Waste Production in Chandigarh using machine learning.</li>
+                
+                <li>Contributed to developing Predictive Maintenance for IoT devices.</li>
+                
+            </ul>
+        </div>
+        
+    </section>
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        
+        <div class="card">
+            <h3>American Sign Language Translation and Emotion Recognition</h3>
+            <ul>
+                
+                <li>Implemented ASL gesture recognition with 85% accuracy using computer vision techniques.</li>
+                
+                <li>Developed an emotion recognition module with 90% accuracy using deep learning models.</li>
+                
+                <li>Built and trained machine learning algorithms, improving classification accuracy by 15% through model optimization.</li>
+                
+                <li>Integrated Python, OpenCV, and TensorFlow for real-time ASL translation and emotion detection.</li>
+                
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h3>Secure FeFET NAND Arrays for LLMs</h3>
+            <ul>
+                
+                <li>Developed encryption algorithms to secure FeFET-based NAND array memory designs.</li>
+                
+                <li>Implemented access control mechanisms and error detection protocols in memory architectures.</li>
+                
+                <li>Simulated and optimized memory performance under secure operations.</li>
+                
+            </ul>
+        </div>
+        
+        <div class="card">
+            <h3>LED Light Bulb With Auto Control Light using Arduino</h3>
+            <ul>
+                
+                <li>Developed an Auto Control of LED Street Light model with Arduino.</li>
+                
+                <li>Used Embedded C and IR Sensor for implementation.</li>
+                
+                <li>Application in home and office automation systems for energy-saving lighting.</li>
+                
+            </ul>
+        </div>
+        
+    </section>
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <div class="skills">
+            
+            <div>Python</div>
+            
+            <div>HTML</div>
+            
+            <div>CSS</div>
+            
+            <div>Java</div>
+            
+            <div>MySQL</div>
+            
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Bhavani Tribhuvan. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
